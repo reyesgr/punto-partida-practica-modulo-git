@@ -2,7 +2,7 @@
 
 ## Tarea 1 — Fork y configuración inicial
 Un fork es una copia que se hace de un proyecto, aunque no es una copia totalmente independiente. La idea del fork es mantener una relación con el proyecto desde el que se hizo la copia. De esa forma, si hay un cambio en el proyecto original puedes aplicar dichos cambios a tu copia para mantenerla actualizada.
-Una vez hecho el fork del proyecto en el GitHub y para trabajar con VSCode, he clonado el repositorio con: git clone https://github.com/reyesgr/punto-partida-practica-modulo-git.git
+Una vez hecho el fork del proyecto en el GitHub y para trabajar con VS Code, he clonado el repositorio con: git clone https://github.com/reyesgr/punto-partida-practica-modulo-git.git
 
 También se pueden hacer cambios en la otra dirección, se puede proponer que los cambios en tu copia del proyecto se apliquen al proyecto original. En git para interactuar con el proyecto original se configura su dirección como upstream . Cuando se hace un pull de upstream, te traes los cambios que se hicieron en el proyecto original desde que creaste el fork (o desde que hiciste el último pull de upstream).
 Para configurar dicha dirección como upstream he usado el comando: git remote add upstream https://github.com/Lemoncode/punto-partida-practica-modulo-git.git
@@ -53,7 +53,7 @@ facilita la revisión entre compañeros o equipos y evita subir cambios innecesa
 *Los marcadores de conflicto (<<<<<<<, =======, >>>>>>>) en VS Code*
 ![Captura6.-Marcadores de conflicto](capturas/Captura_6.png)
 
-En VSCode, los marcadores dan información sobre el conflicto:
+En VS Code, los marcadores dan información sobre el conflicto:
 - <<<<< indica el inicio del conflicto, primero indica el contenido de la rama en la que estás situado. Es el cambio actual
 - ====== es el divisor entre los cambios, es un separador.
 - \>\>\>\>\>\> indica el Incoming Change , los cambios en la rama que estás intentando fusionar.
@@ -64,5 +64,6 @@ En VSCode, los marcadores dan información sobre el conflicto:
 ## Tarea 6 — Limpieza y cierre del diario
 
 *Terminal con git log --oneline en main mostrando todos los commits*
-![Captura8.-App en el navegador](capturas/Captura_7.png)
+![Captura8.-App en el navegador](capturas/Captura_8.png)
 
+He usado Git antes muy poco. Ahora comprendo mucho mejor qué hace, para qué sirve y cómo se usa. Al principio estaba más cómoda con la terminal, pero poco a poco que me ido acostumbrando a la extensión de VS Code y es mucho más cómodo.
